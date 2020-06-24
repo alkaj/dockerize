@@ -1,5 +1,4 @@
 FROM nginx:alpine
-ARG APPNAME
 # Move to the production ready directory
 COPY . /usr/share/nginx/html
 

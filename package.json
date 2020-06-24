@@ -1,6 +1,6 @@
 {
   "name": "static-dockerizer",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Make a simple nginx based container to show a static website",
   "main": "index.js",
   "scripts": {
