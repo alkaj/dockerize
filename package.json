@@ -1,11 +1,11 @@
 {
   "name": "static-dockerizer",
-  "version": "1.0.7",
+  "version": "1.0.12",
   "description": "Make a simple nginx based container to show a static website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cp Dockerfile .dockerignore ../../"
+    "postinstall": "mv Dockerfile .dockerignore ../../"
   },
   "repository": {
     "type": "git",
