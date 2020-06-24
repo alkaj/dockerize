@@ -31,4 +31,4 @@ Push it to any registry for deployment
 ### 5. Notes
   
 * The container exposes port ``` 80 ```  
-* The server expects a ``` 404.htm ``` as 404 error page.
+* The server expects a ``` 404.html ``` as 404 error page.
