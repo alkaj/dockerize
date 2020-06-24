@@ -23,7 +23,7 @@ Run the image locally to test your site
   
 ``` docker run -p 8080:80 -d  my-static-site-image ```  
   
-Then visit ``` localhost ``` from your browser to make sure it works.  
+Then visit ``` localhost:8080 ``` from your browser to make sure it works.  
 
 ### 4. Push  
 Push it to any registry for deployment  
