@@ -32,3 +32,6 @@ Push it to any registry for deployment
   
 * The container exposes port ``` 80 ```  
 * The server expects a ``` 404.html ``` as 404 error page.
+
+# License
+The Static-Dockerizer is an open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
