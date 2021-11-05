@@ -1,20 +1,20 @@
 pipeline {
 	agent {
 		docker {
-			image "node:alpine"
+			image "docker:dind"
 		}
 	} 
 	stages {
 		stage('Build') {
 			steps {
 				echo 'Building the image container'
-				sh 'node -v'
+				sh "docker build -t alkaj/dockerizer:${BUILD_NUMBER}"
 			}
 		}
 		stage('Test') {
 			steps {
 				echo 'Checking the image container'
-				sh 'npm install'
+				sh "docker run --rm alkaj/dockerizer:${BUILD_NUMBER}"
 			}
 		}
 		stage('Deploy') {
