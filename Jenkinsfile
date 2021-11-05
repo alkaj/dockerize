@@ -6,7 +6,7 @@ pipeline {
 				echo 'Building the image container'
 			}
 		}
-		stage('Build') {
+		stage('Deploy') {
 			steps {
 				echo 'Pushing the image container to docker hub'
 			}
